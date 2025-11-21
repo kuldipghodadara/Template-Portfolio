@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimonials - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+     <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">Portfolio</a>
+            
+            <ul class="navbar-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="blog.html">Blog</a></li>
+   <li class="dropdown">
+                    <span class="dropdown-toggle">
+                        More
+                        <svg class="icon" style="width: 1rem; height: 1rem;" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+                    </span>
+                    <div class="dropdown-menu">
+                        <a href="testimonials.html" class="dropdown-item">Testimonials</a>
+                        <a href="services.html" class="dropdown-item">Service Details</a>
+                        <a href="blog.html" class="dropdown-item">Blog Details</a>
+                        <a href="projects.html" class="dropdown-item">Project Details</a>
+                    </div>
+                </li>                 <li><a href="contact.html">Contact</a></li>
+            </ul>
+            
+            <div class="navbar-actions">
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme"></button>
+                <button id="mobile-menu-toggle" class="mobile-menu-toggle" aria-label="Toggle menu"></button>
+            </div>
+        </div>
+        
+        <div id="mobile-menu" class="mobile-menu">
+            <div class="container">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="projects.html">Projects</a>
+                <a href="blog.html">Blog</a>
+                <a href="testimonials.html">Testimonials</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="section">
+        <div class="container">
+            <div class="text-center mb-12">
+                <h1>Client Testimonials</h1>
+                <p style="font-size: 1.25rem;" class="text-muted max-w-4xl">What my clients say about working with me</p>
+            </div>
+            
+            <div class="grid grid-cols-1 grid-cols-md-2">
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100" alt="John Doe" class="testimonial-avatar">
+                        <div class="testimonial-author">
+                            <h5>John Doe</h5>
+                            <p class="testimonial-role">CEO, Tech Startup</p>
+                        </div>
+                    </div>
+                    <p class="testimonial-text">"Exceptional work! The website exceeded our expectations. Professional, responsive, and delivered on time. Highly recommend for any web development project."</p>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100" alt="Sarah Smith" class="testimonial-avatar">
+                        <div class="testimonial-author">
+                            <h5>Sarah Smith</h5>
+                            <p class="testimonial-role">Marketing Director</p>
+                        </div>
+                    </div>
+                    <p class="testimonial-text">"Great communication and technical skills. Our new dashboard is exactly what we needed for our business. The attention to detail was impressive."</p>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100" alt="Mike Johnson" class="testimonial-avatar">
+                        <div class="testimonial-author">
+                            <h5>Mike Johnson</h5>
+                            <p class="testimonial-role">Product Manager</p>
+                        </div>
+                    </div>
+                    <p class="testimonial-text">"Highly skilled developer with great attention to detail. Would definitely work together again on future projects. The code quality is outstanding."</p>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100" alt="Emily Chen" class="testimonial-avatar">
+                        <div class="testimonial-author">
+                            <h5>Emily Chen</h5>
+                            <p class="testimonial-role">Founder, Design Studio</p>
+                        </div>
+                    </div>
+                    <p class="testimonial-text">"A pleasure to work with! The design implementation was pixel-perfect and the website performance is amazing. Very professional and reliable."</p>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100" alt="David Wilson" class="testimonial-avatar">
+                        <div class="testimonial-author">
+                            <h5>David Wilson</h5>
+                            <p class="testimonial-role">CTO, E-commerce Company</p>
+                        </div>
+                    </div>
+                    <p class="testimonial-text">"Outstanding developer who understands both the technical and business aspects. Our e-commerce platform has seen significant improvements in performance."</p>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100" alt="Lisa Anderson" class="testimonial-avatar">
+                        <div class="testimonial-author">
+                            <h5>Lisa Anderson</h5>
+                            <p class="testimonial-role">Creative Director</p>
+                        </div>
+                    </div>
+                    <p class="testimonial-text">"Excellent work on our portfolio website. The animations and interactions are smooth, and the site loads incredibly fast. Exceeded all our expectations!"</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section bg-muted">
+        <div class="container">
+            <div class="card max-w-4xl text-center" style="padding: 3rem;">
+                <h2 class="mb-4">Want to Work Together?</h2>
+                <p class="text-muted mb-8">Join these happy clients and let's create something amazing</p>
+                <a href="contact.html" class="btn btn-primary btn-lg">Start Your Project</a>
+            </div>
+        </div>
+    </section>
+<!-- 
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p class="footer-text">© 2025 Portfolio. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="https://github.com" class="social-link"><svg class="icon" viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+                    <a href="https://linkedin.com" class="social-link"><svg class="icon" viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+                    <a href="https://twitter.com" class="social-link"><svg class="icon" viewBox="0 0 24 24"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/></svg></a>
+                </div>
+            </div>
+        </div>
+    </footer> -->
+
+     <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h4>About</h4>
+                    <p class="footer-about">Passionate web developer creating beautiful and functional digital experiences. Specializing in modern web technologies and user-centered design.</p>
+                    <div class="footer-social-links">
+                        <a href="#" class="footer-social-link" aria-label="GitHub">
+                            <svg class="icon" viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                        </a>
+                        <a href="#" class="footer-social-link" aria-label="LinkedIn">
+                            <svg class="icon" viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                        </a>
+                        <a href="#" class="footer-social-link" aria-label="Twitter">
+                            <svg class="icon" viewBox="0 0 24 24"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/></svg>
+                        </a>
+                        <a href="#" class="footer-social-link" aria-label="Email">
+                            <svg class="icon" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <a href="index.html" class="footer-link">Home</a>
+                    <a href="about.html" class="footer-link">About Me</a>
+                    <a href="services.html" class="footer-link">Services</a>
+                    <a href="projects.html" class="footer-link">Portfolio</a>
+                    <a href="blog.html" class="footer-link">Blog</a>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <a href="service-detail.html" class="footer-link">Web Development</a>
+                    <a href="service-detail.html" class="footer-link">UI/UX Design</a>
+                    <a href="service-detail.html" class="footer-link">Mobile Apps</a>
+                    <a href="service-detail.html" class="footer-link">Performance Optimization</a>
+                    <a href="service-detail.html" class="footer-link">Consulting</a>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <a href="testimonials.html" class="footer-link">Testimonials</a>
+                    <a href="blog-detail.html" class="footer-link">Blog Details</a>
+                    <a href="project-detail.html" class="footer-link">Case Studies</a>
+                    <a href="contact.html" class="footer-link">Contact Us</a>
+                    <a href="#" class="footer-link">Privacy Policy</a>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>© 2025 Portfolio. All rights reserved. Made with ❤️ and ☕ by Web Developer</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
