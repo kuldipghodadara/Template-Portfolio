@@ -13,33 +13,36 @@
     <nav class="navbar">
         <div class="container">
             <a href="index.html" class="navbar-brand">Portfolio</a>
+
+            <!-- Desktop Menu -->
             <ul class="navbar-menu">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="services.html">Services</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="blog.html">Blog</a></li>
                 <li class="dropdown">
                     <span class="dropdown-toggle">
-                        More
+                        Pages
                         <svg class="icon" style="width: 1rem; height: 1rem;" viewBox="0 0 24 24">
                             <polyline points="6 9 12 15 18 9" />
                         </svg>
                     </span>
                     <div class="dropdown-menu">
+                        <a href="projects.html" class="dropdown-item">Project</a>
                         <a href="testimonials.html" class="dropdown-item">Testimonials</a>
-                        <a href="services.html" class="dropdown-item">Service Details</a>
-                        <a href="blog.html" class="dropdown-item">Blog Details</a>
-                        <a href="projects.html" class="dropdown-item">Project Details</a>
+                        <a href="blog.html" class="dropdown-item">Blog</a>
+
                     </div>
                 </li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
+
             <div class="navbar-actions">
-                <button id="theme-toggle" class="theme-toggle"></button>
-                <button id="mobile-menu-toggle" class="mobile-menu-toggle"></button>
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme"></button>
+                <button id="mobile-menu-toggle" class="mobile-menu-toggle" aria-label="Toggle menu"></button>
             </div>
         </div>
+
+        <!-- Mobile Menu -->
         <div id="mobile-menu" class="mobile-menu">
             <div class="container">
                 <a href="index.html">Home</a>

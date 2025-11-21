@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,35 +8,41 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/main.css">
 </head>
+
 <body>
     <nav class="navbar">
         <div class="container">
             <a href="index.html" class="navbar-brand">Portfolio</a>
+
+            <!-- Desktop Menu -->
             <ul class="navbar-menu">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="services.html">Services</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="blog.html">Blog</a></li>
-   <li class="dropdown">
+                <li class="dropdown">
                     <span class="dropdown-toggle">
-                        More
-                        <svg class="icon" style="width: 1rem; height: 1rem;" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+                        Pages
+                        <svg class="icon" style="width: 1rem; height: 1rem;" viewBox="0 0 24 24">
+                            <polyline points="6 9 12 15 18 9" />
+                        </svg>
                     </span>
                     <div class="dropdown-menu">
+                        <a href="projects.html" class="dropdown-item">Project</a>
                         <a href="testimonials.html" class="dropdown-item">Testimonials</a>
-                        <a href="services.html" class="dropdown-item">Service Details</a>
-                        <a href="blog.html" class="dropdown-item">Blog Details</a>
-                        <a href="projects.html" class="dropdown-item">Project Details</a>
+                        <a href="blog.html" class="dropdown-item">Blog</a>
+
                     </div>
-                </li> 
+                </li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
+
             <div class="navbar-actions">
-                <button id="theme-toggle" class="theme-toggle"></button>
-                <button id="mobile-menu-toggle" class="mobile-menu-toggle"></button>
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme"></button>
+                <button id="mobile-menu-toggle" class="mobile-menu-toggle" aria-label="Toggle menu"></button>
             </div>
         </div>
+
+        <!-- Mobile Menu -->
         <div id="mobile-menu" class="mobile-menu">
             <div class="container">
                 <a href="index.html">Home</a>
@@ -53,9 +60,10 @@
         <div class="container">
             <div class="text-center mb-12">
                 <h1>Blog</h1>
-                <p style="font-size: 1.25rem;" class="text-muted max-w-4xl">Thoughts on web development, design, and technology</p>
+                <p style="font-size: 1.25rem;" class="text-muted max-w-4xl">Thoughts on web development, design, and
+                    technology</p>
             </div>
-            
+
             <div class="grid grid-cols-1 grid-cols-md-2 grid-cols-lg-3">
                 <a href="#" class="blog-card">
                     <div class="blog-card-image">
@@ -64,14 +72,15 @@
                     <div class="blog-card-content">
                         <p class="blog-meta">Nov 15, 2025 • 5 min read</p>
                         <h4>Modern Web Development Best Practices</h4>
-                        <p class="text-muted">Exploring the latest trends and techniques in web development for 2025, including performance optimization and modern frameworks.</p>
+                        <p class="text-muted">Exploring the latest trends and techniques in web development for 2025,
+                            including performance optimization and modern frameworks.</p>
                         <div style="margin-top: 1rem;">
                             <span class="badge">React</span>
                             <span class="badge" style="margin-left: 0.5rem;">TypeScript</span>
                         </div>
                     </div>
                 </a>
-                
+
                 <a href="#" class="blog-card">
                     <div class="blog-card-image">
                         <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=800" alt="Blog Post">
@@ -79,14 +88,15 @@
                     <div class="blog-card-content">
                         <p class="blog-meta">Nov 10, 2025 • 7 min read</p>
                         <h4>The Power of Responsive Design</h4>
-                        <p class="text-muted">Why responsive design is crucial for modern websites and how to implement it effectively for all screen sizes.</p>
+                        <p class="text-muted">Why responsive design is crucial for modern websites and how to implement
+                            it effectively for all screen sizes.</p>
                         <div style="margin-top: 1rem;">
                             <span class="badge">CSS</span>
                             <span class="badge" style="margin-left: 0.5rem;">Design</span>
                         </div>
                     </div>
                 </a>
-                
+
                 <a href="#" class="blog-card">
                     <div class="blog-card-image">
                         <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800" alt="Blog Post">
@@ -94,14 +104,15 @@
                     <div class="blog-card-content">
                         <p class="blog-meta">Nov 5, 2025 • 6 min read</p>
                         <h4>Performance Optimization Tips</h4>
-                        <p class="text-muted">Practical tips to make your website faster and more efficient, improving user experience and SEO.</p>
+                        <p class="text-muted">Practical tips to make your website faster and more efficient, improving
+                            user experience and SEO.</p>
                         <div style="margin-top: 1rem;">
                             <span class="badge">Performance</span>
                             <span class="badge" style="margin-left: 0.5rem;">SEO</span>
                         </div>
                     </div>
                 </a>
-                
+
                 <a href="#" class="blog-card">
                     <div class="blog-card-image">
                         <img src="https://images.unsplash.com/photo-1709715357520-5e1047a2b691?w=800" alt="Blog Post">
@@ -109,14 +120,15 @@
                     <div class="blog-card-content">
                         <p class="blog-meta">Oct 28, 2025 • 8 min read</p>
                         <h4>Building Accessible Web Applications</h4>
-                        <p class="text-muted">A comprehensive guide to making your web applications accessible to everyone, following WCAG guidelines.</p>
+                        <p class="text-muted">A comprehensive guide to making your web applications accessible to
+                            everyone, following WCAG guidelines.</p>
                         <div style="margin-top: 1rem;">
                             <span class="badge">Accessibility</span>
                             <span class="badge" style="margin-left: 0.5rem;">UX</span>
                         </div>
                     </div>
                 </a>
-                
+
                 <a href="#" class="blog-card">
                     <div class="blog-card-image">
                         <img src="https://images.unsplash.com/photo-1652696290920-ee4c836c711e?w=800" alt="Blog Post">
@@ -124,14 +136,15 @@
                     <div class="blog-card-content">
                         <p class="blog-meta">Oct 20, 2025 • 5 min read</p>
                         <h4>State Management in React</h4>
-                        <p class="text-muted">Exploring different state management solutions in React, from Context API to Redux and Zustand.</p>
+                        <p class="text-muted">Exploring different state management solutions in React, from Context API
+                            to Redux and Zustand.</p>
                         <div style="margin-top: 1rem;">
                             <span class="badge">React</span>
                             <span class="badge" style="margin-left: 0.5rem;">State Management</span>
                         </div>
                     </div>
                 </a>
-                
+
                 <a href="#" class="blog-card">
                     <div class="blog-card-image">
                         <img src="https://images.unsplash.com/photo-1742440710136-1976b1cad864?w=800" alt="Blog Post">
@@ -139,7 +152,8 @@
                     <div class="blog-card-content">
                         <p class="blog-meta">Oct 12, 2025 • 6 min read</p>
                         <h4>CSS Grid vs Flexbox</h4>
-                        <p class="text-muted">Understanding when to use CSS Grid and when to use Flexbox for your layouts.</p>
+                        <p class="text-muted">Understanding when to use CSS Grid and when to use Flexbox for your
+                            layouts.</p>
                         <div style="margin-top: 1rem;">
                             <span class="badge">CSS</span>
                             <span class="badge" style="margin-left: 0.5rem;">Layout</span>
@@ -150,7 +164,7 @@
         </div>
     </section>
 
-<!--     <footer class="footer">
+    <!--     <footer class="footer">
         <div class="container">
             <div class="footer-content">
                 <p class="footer-text">© 2025 Portfolio. All rights reserved.</p>
@@ -162,28 +176,43 @@
             </div>
         </div>
     </footer> -->
-     <footer class="footer">
+    <footer class="footer">
         <div class="container">
             <div class="footer-grid">
                 <div class="footer-section">
                     <h4>About</h4>
-                    <p class="footer-about">Passionate web developer creating beautiful and functional digital experiences. Specializing in modern web technologies and user-centered design.</p>
+                    <p class="footer-about">Passionate web developer creating beautiful and functional digital
+                        experiences. Specializing in modern web technologies and user-centered design.</p>
                     <div class="footer-social-links">
                         <a href="#" class="footer-social-link" aria-label="GitHub">
-                            <svg class="icon" viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                            <svg class="icon" viewBox="0 0 24 24">
+                                <path
+                                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+                            </svg>
                         </a>
                         <a href="#" class="footer-social-link" aria-label="LinkedIn">
-                            <svg class="icon" viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                            <svg class="icon" viewBox="0 0 24 24">
+                                <path
+                                    d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                                <rect x="2" y="9" width="4" height="12" />
+                                <circle cx="4" cy="4" r="2" />
+                            </svg>
                         </a>
                         <a href="#" class="footer-social-link" aria-label="Twitter">
-                            <svg class="icon" viewBox="0 0 24 24"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/></svg>
+                            <svg class="icon" viewBox="0 0 24 24">
+                                <path
+                                    d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z" />
+                            </svg>
                         </a>
                         <a href="#" class="footer-social-link" aria-label="Email">
-                            <svg class="icon" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                            <svg class="icon" viewBox="0 0 24 24">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                                <polyline points="22,6 12,13 2,6" />
+                            </svg>
                         </a>
                     </div>
                 </div>
-                
+
                 <div class="footer-section">
                     <h4>Quick Links</h4>
                     <a href="index.html" class="footer-link">Home</a>
@@ -192,7 +221,7 @@
                     <a href="projects.html" class="footer-link">Portfolio</a>
                     <a href="blog.html" class="footer-link">Blog</a>
                 </div>
-                
+
                 <div class="footer-section">
                     <h4>Services</h4>
                     <a href="service-detail.html" class="footer-link">Web Development</a>
@@ -201,7 +230,7 @@
                     <a href="service-detail.html" class="footer-link">Performance Optimization</a>
                     <a href="service-detail.html" class="footer-link">Consulting</a>
                 </div>
-                
+
                 <div class="footer-section">
                     <h4>Company</h4>
                     <a href="testimonials.html" class="footer-link">Testimonials</a>
@@ -211,7 +240,7 @@
                     <a href="#" class="footer-link">Privacy Policy</a>
                 </div>
             </div>
-            
+
             <div class="footer-bottom">
                 <p>© 2025 Portfolio. All rights reserved. Made with ❤️ and ☕ by Web Developer</p>
             </div>
@@ -220,4 +249,5 @@
 
     <script src="scripts/main.js"></script>
 </body>
+
 </html>

@@ -303,7 +303,7 @@ img {
 }
 
 .dropdown-item:hover {
-  background: var(--gradient-primary);
+  background: rgb(205, 198, 198);
   color: white;
 }
 
@@ -657,11 +657,7 @@ img {
   transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   position: relative;
   overflow: hidden;
-  color: var(--color-muted-foreground);
-}
-
-.service-card :hover {
-  color: #fff;
+  color: #eeebeb;
 }
 
 .service-card::before {
