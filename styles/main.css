@@ -657,7 +657,6 @@ img {
   transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   position: relative;
   overflow: hidden;
-  color: #eeebeb;
 }
 
 .service-card::before {
@@ -682,6 +681,11 @@ img {
   transform: translateY(-0.5rem) scale(1.03);
   box-shadow: var(--shadow-2xl);
   border-color: transparent;
+}
+
+.service-card:hover p,
+.service-card:hover ul li {
+  color: #ffffff;
 }
 
 .service-icon {
